@@ -10,8 +10,6 @@ import (
 
 type ginVisitor struct {
     limiter *rate.Limiter
-    rate rate.Limit
-    bucket int
     lastSeen time.Time
 }
 
